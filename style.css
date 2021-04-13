@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* font-family: 'Bree Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bree-fonts{
+    font-family: 'Bree serif', serif;
+}
+.ubuntu-fonts{
+    font-family: 'Ubuntu', sans-serif;
+}
+.libre-fonts{
+    font-family: 'Libre Baskerville', serif;
+}
+.red{
+    color: #F8333C;
+}
+.blue{
+    color: #3A86EF;
+}
+.green{
+    color: #00AA59;
+}
+.yellow{
+    color: #FFBA34;
+}
+/* ################################################################################################################################ */
+
+/* header styling? */
+
+/* ##################################################################################################################################### */
+
+.header .your-company-name h1 {
+    display: inline-block;
+    color: #ECB9AF;
+    padding: 2rem;
+}
+
+.full-header {
+    width: 100%;
+    height: 55rem;
+    background-image: url('./img/company-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-navbar {
+    width: 100%;
+    height: 6rem;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.header-navbar ul {
+    width: min-content;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    /* background-color: #FB7451; */
+}
+
+.header-navbar ul a {
+    margin: 0 2rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+.header-navbar ul a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+}
+
+.company-welcome {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding-left: 2%;
+}
+
+.company-welcome .company-welcome-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.company-welcome-name {
+    font-size: 5rem;
+    color: #FB7451;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* ################################################################################################################################ */
+
+/* team leaders div styling? */
+
+/* ##################################################################################################################################### */
+
+.our-team-leaders-div {
+    width: 100%;
+    padding: 5% 0;
+}
+
+.team-leaders-about {
+    width: 100%;
+    height: 20rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-leaders-about h1 {
+    font-size: 2.5rem;
+    font-family: 'Libre Baskerville', serif;
+    color: #FB7451;
+    margin: 1% 0;
+    text-transform: uppercase;
+}
+
+.team-leaders-about hr {
+    width: 10%;
+    color: rgb(141, 68, 68);
+}
+
+.team-leaders-about p {
+    margin: 2% 0;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.team-leaders {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.team-leaders .leader {
+    width: 25rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.leader img {
+    width: 100%;
+    height: 35rem;
+}
+
+.leader-about {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.leader-about h1 {
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+
+.leader-about p {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+/* ################################################################################################################################ */
+
+/* company appreciation div styling? */
+
+/* ##################################################################################################################################### */
+
+.company-appreciation {
+    cursor: default;
+    margin: 10% 0;
+    width: 100%;
+    height: 20rem;
+    background-color: #FB7451;
+    background-image: url("./img/our-client-satisfactions.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 32, 0.795);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 4em;
+    font-family: 'Libre Baskerville', serif;
+    color: #FB7451;
+    margin: 1rem 0;
+}
+
+.box p {
+    font-size: 1.6em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.man-img{
+    cursor: default;
+    width: 100%;
+    height: 50rem;
+    background-image: url('./img/life-at-company.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.man-img h1{
+    margin: 5%;
+    width: 5rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    word-spacing: 6px;
+    font-size: 3.6rem;
+    color: #1b4209;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+
+
+
+
+
+/* ################################################################################################################################ */
+
+/* contact us div styling? */
+
+/* ##################################################################################################################################### */
+
+.contact-us{
+    width: 100%;
+    height: 65rem;
+    background-image: url('./img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3% 0;
+}
+
+.contact-us-form{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 11, 15, 0.801);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-us-heading{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-heading h1{
+    font-size: 3.8rem;
+    letter-spacing: 1.4px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+    color: #FEFFFF;
+}
+
+.contact-us-heading p{
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+    color: #ADAFB1;
+    font-weight: 500;
+}
+
+.contactus-form{
+    height: 50%;
+    width: 60%;
+}
+
+.contact-us form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name-gender, .phone-city, .email-div, .messagebox{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactus-form form input{
+    width: 45%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ADAFB1;
+    background-color: transparent;
+    color: #d0d2d3;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu',sans-serif;
+}
+.contactus-form form input::placeholder, #message::placeholder{
+    color: #b3b6b9;
+}
+
+#email{
+    width: 94%;
+}
+
+#message {
+    font-family: 'Ubuntu',sans-serif;
+    padding: 1rem;
+    color: #d0d2d3;
+    width: 94%;
+    height: 5rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ADAFB1;
+    background: transparent;
+    font-size: 1.6rem;
+}
+
+.contact-us-button {
+    width: 94%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us-button a{
+    background: #FB7451;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ################################################################################################################################ */
+
+/* team leaders div styling? */
+
+/* ##################################################################################################################################### */
+
+.about-us {
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-us-img{
+    width: 40%;
+    height: 75%;
+    display: grid;
+    place-items: center;
+    background-image: url("./img/About-us.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-img div{
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.603); */
+    background-color: rgba(54, 53, 53, 0.123);
+}
+
+.about-us-p{
+    width: 45%;
+    height: 80%;
+    border: 1px solid rgb(156, 153, 153);
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+
+.aboutus-headings{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-headings h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.aboutus-headings p{
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.aboutus-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutus-images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus-images i{
+    border: 2px solid black;
+    color: rgb(141, 138, 138);
+    display: grid;
+    place-items: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.603);
+}
+
+.vertical-line{
+    width: 2px;
+    height: 4rem;
+    background-color: rgb(49, 46, 46);
+}
+
+.aboutus-images h1{
+    text-transform: uppercase;
+    padding: 0.6rem;
+    border: 2px solid rgb(49, 46, 46);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* ################################################################################################################################ */
+
+/* team leaders div styling? */
+
+/* ##################################################################################################################################### */
+
+
+.our-information{
+    width: 100%;
+    height: 25rem;
+    background-color: #1E3036;
+    color: #CACED3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our-information .info-div{
+    width: 15%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-div h1{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+.info-div ul{
+    list-style: none;
+}
+
+.info-div li{
+    margin: 5% 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.address-div div{ 
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-div div span.small-fonts{
+    margin: 0 5%;
+    /* background-color: #FB7451; */
+    width: 11rem;
+}
+
+
+
+
+/* ################################################################################################################################ */
+
+/* team leaders div styling? */
+
+/* ##################################################################################################################################### */
+
+.ending{
+    height: 6rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ending .copyright-div{
+    width: 50%;
+    height: 100%;
+    color: #CACED3;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.socialmedia-links{
+    width: 40%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.sm-links{
+    display: flex;
+}
+
+.sm-links a{
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    margin: 0 1rem;
+}
+
+.sm-links .facebook-icon{
+    padding: 1rem 1.5rem;
+}
