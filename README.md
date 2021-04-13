@@ -1,1 +1,1 @@
-# bussinesswebsite
+# this website is not responsive
